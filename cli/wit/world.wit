@@ -1,0 +1,7 @@
+package component:sample;
+use wasi:cli/run@0.2.7;
+/// An example world for the component to target.
+world example {
+    export run;
+    export hello-world: func() -> string;
+}

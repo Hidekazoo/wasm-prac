@@ -1,0 +1,5 @@
+package component:http;
+
+world example {
+    export sample-request: func() -> result<string,string>;
+}
